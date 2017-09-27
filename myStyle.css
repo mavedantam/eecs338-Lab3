@@ -1,0 +1,37 @@
+h2
+{
+  color: white;
+  font-family: arial black;
+  font-size: 36pt;
+}
+h
+{
+  color: white;
+  font-family: arial;
+  font-size: 22pt;
+}
+p
+{
+    background-color:rgb(204, 255, 204);
+}
+p.recentRelease
+{
+    color: 	rgb(255, 255, 153);
+    background-color: black;
+}
+body
+{
+  background-color: green;
+  background-image: url(background.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+a
+{
+    color: rgb(0, 102, 51);
+}
+
+a:hover
+{
+    color: blue
+}

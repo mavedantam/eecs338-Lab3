@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <title>Color Coordination</title>
+  </head>
+
+  <body>
+    <p id="myParagraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum.
+    </p>
+  </br>
+  <div class="container">
+    <h3>Border</h3></br>
+      Red:</br>
+      <input type="text" id="redA" placeholder="(0-255)" required></br>
+      Green:</br>
+      <input type="text" id="greenA" placeholder="(0-255)" required></br>
+      Blue:</br>
+      <input type="text" id="blueA" placeholder="(0-255)" required></br>
+      Width:</br>
+      <input type="text" id="width" required></br>
+    <h3>Background</h3></br>
+    Red:</br>
+    <input type="text" id="redB" placeholder="(0-255)" required></br>
+    Green:</br>
+    <input type="text" id="greenB" placeholder="(0-255)" required></br>
+    Blue:</br>
+    <input type="text" id="blueB" placeholder="(0-255)" required></br>
+
+
+      <button onclick="main(document.getElementById('redA').value, document.getElementById('greenA').value, document.getElementById('blueA').value, document.getElementById('width').value, document.getElementById('redB').value, document.getElementById('greenB').value, document.getElementById('blueB').value, myParagraph)">Submit</button>
+
+    </form>
+  </div>
+    <script src = "colorCoordination.js"></script>
+  </body>
+</html>
